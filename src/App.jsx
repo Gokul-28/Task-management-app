@@ -1,15 +1,12 @@
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css"; 
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 
-import BoardList from "./component/BoardList";
+import TaskMang from "./component/TaskMang";
 
 const App = () => {
   return (
     <div>
-      <BoardList />
-    
+      <TaskMang />    
     </div>
   );
 };
